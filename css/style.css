@@ -1,0 +1,118 @@
+body 
+{  
+  margin: 0;
+  font-family: 'Ubuntu';
+}
+#container
+{
+  margin: 0 auto;
+  width: 100%;
+  background: #fff;
+}
+
+#header
+{
+  background: #fff;
+  padding: 20px;
+}
+
+#header img
+{  
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#header h1 
+{ 
+  margin: 0; 
+  font-family: 'Amaranth', arial, serif;
+  font-size: 250%;
+  text-shadow: 5px 5px 5px #aaa;
+}
+
+#header h2
+{ 
+  font-size: 110%;
+  font-style: italic;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#navigation
+{
+  float: left;
+  width: 100%;
+  background: #ccc;
+}
+
+#navigation ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li
+{
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a
+{
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+#navigation li a:hover 
+{ 
+  background: #383; 
+}
+
+#content-container
+{
+  float: left;
+  width: 100%;
+  background: #FFF url(layout-two-liquid-background.gif) repeat-y 68% 0;
+}
+
+#content
+{
+  clear: left;
+  float: left;
+  width: 60%;
+  padding: 20px 0;
+  margin: 0 0 0 4%;
+  display: inline;
+}
+
+#aside
+{
+  float: right;
+  width: 26%;
+  padding: 20px 0;
+  margin: 0 3% 0 0;
+  display: inline;
+}
+
+#aside h3 
+{ 
+margin: 0; 
+}
+
+#footer
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+  clear: left;
+  background: #ccc;
+  text-align: right;
+  padding: 20px;
+  height: 1%;
+}
+
