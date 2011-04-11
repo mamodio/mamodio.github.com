@@ -69,7 +69,11 @@ body
 
 #navigation li a:hover 
 { 
-  background: #383; 
+  color: #fff; 
+  background: #333;
+  -webkit-transition:All 0.50s ease; 
+  -moz-transition:All 1s ease; 
+  -o-transition:All 1s ease;
 }
 
 #content-container

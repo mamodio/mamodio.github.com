@@ -69,7 +69,11 @@ body
 
 #navigation li a:hover 
 { 
-  background: #383; 
+  color: #fff; 
+  background: #333;
+  -webkit-transition:All 0.50s ease; 
+  -moz-transition:All 1s ease; 
+  -o-transition:All 1s ease;
 }
 
 #content-container
@@ -105,10 +109,6 @@ margin: 0;
 
 #footer
 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right:0;
   clear: left;
   background: #ccc;
   text-align: right;
