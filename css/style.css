@@ -9,7 +9,7 @@ body { margin: 0; font-family: 'Ubuntu'; font-size: 110%;}
 #header img { position: absolute; right: 0; top: 0; }
 #header h1 { margin: 0; font-size: 280%; text-shadow: 5px 5px 5px #aaa; }
 #header h2 { font-size: 110%; font-style: italic; text-shadow: 4px 4px 4px #aaa; }
-#navigation { float: left; width: 100%; background: navy; }
+#navigation { float: left; width: 100%; background: #676FFB; }
 #navigation ul { margin: 0; padding: 0; }
 #navigation ul li { list-style-type: none; display: inline; font-weight: bold; }
 #navigation li a { display: block; float: left; padding: 5px 10px; color: #fff; text-decoration: none; border-right: 1px solid #fff; }
@@ -23,7 +23,7 @@ body { margin: 0; font-family: 'Ubuntu'; font-size: 110%;}
 }
 #content-container { float: left; width: 100%; background: #fff; }
 #content { clear: left; float: left; width: 60%; padding: 20px 0; margin: 0 0 0 4%; display: inline; }
-#aside { float: right; width: 26%; padding: 20px 0; margin: 0 3% 0 0; display: inline; }
-#aside h3 { margin: 0; }
-#footer { clear: left; background: navy; text-align: right; padding: 20px; height: 1%; }
+#aside { float: right; width: 26%; padding: 6px; margin: 20px 0 0 0; display: inline; background: #676FFB; border-bottom-left-radius: 1em; border-top-left-radius: 1em; -moz-border-radius-bottomleft: 1em; -moz-border-radius-topleft: 1em; -webkit-border-bottom-left-radius: 1em; -webkit-border-top-left-radius: 1em; border: 1px navy solid;}
+#aside h3 {padding-top: 2px; text-shadow: 1px 1px 1px #aaa; border-bottom: 1px solid black;}
+#footer { clear: left; background: #676FFB; text-align: right; padding: 20px; height: 1%; }
 
