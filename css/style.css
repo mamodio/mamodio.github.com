@@ -2,13 +2,13 @@ body { margin: 0; font-family: 'Ubuntu'; font-size: 110%;}
 
 #headimg { position: absolute; right: 0; top: 0; float: right;}
 
-#header { background: #fff; font-family: 'Philosopher', arial, serif; position: absolute; left: 0; top: 0; padding: 40px 0 0 20px; margin-right: 580px; color: #0c20a5; }
+#header { background: #fff; font-family: 'Philosopher', arial, serif; position: absolute; left: 0; top: 0; padding: 30px 0 0 20px; margin-right: 580px; color: #0c20a5;  width: 100%;}
 #header h1 { margin: 0; font-size: 420%; text-shadow: 6px 6px 6px #aac; }
-#header h2 { font-size: 110%; font-style: italic; text-shadow: 4px 4px 4px #aaa; }
+#header h2 { font-size: 100%; font-style: italic; text-shadow: 4px 4px 4px #aaa; max-width: 500px;}
 
-#container { margin: 180px auto; width: 100%; background: #fff; }
+#container { margin-top: 180px ; width: 100%; background: #fff; }
 
-#navigation { float: left; width: 100%; margin-right: 580px; color: #0c20a5}
+#navigation { float: left; width: 100%;  color: #0c20a5}
 #navigation ul { margin: 0; padding: 0; }
 #navigation ul li { list-style-type: none; display: inline; font-weight: bold; }
 #navigation li a { display: block; float: left; padding: 5px 10px; text-decoration: none; border-right: 1px solid #333; }
@@ -16,9 +16,9 @@ body { margin: 0; font-family: 'Ubuntu'; font-size: 110%;}
 
 #content-container { float: left; width: 100%; background: #fff; }
 
-#content { clear: left; float: left; width: 60%; padding: 20px 0; margin: 0 0 0 4%; display: inline; }
+#content { clear: left; float: left; width: 60%; padding: 60px 0; margin: 0 0 0 4%; display: inline; }
 
-#aside { float: right; width: 338px; padding: 6px; margin: 50px 0 0 0; display: inline; background-image: url('/images/sidebg.jpg'); background-repeat: repeat-y; border-bottom-left-radius: 1em; border-top-left-radius: 1em; -moz-border-radius-bottomleft: 1em; -moz-border-radius-topleft: 1em; -webkit-border-bottom-left-radius: 1em; -webkit-border-top-left-radius: 1em; border: 1px #0c20a5 solid;}
+#aside { float: right; width: 338px; padding: 6px; margin: 90px 0 0 0; display: inline; background-image: url('/images/sidebg.jpg'); background-repeat: repeat-y; border-bottom-left-radius: 1em; border-top-left-radius: 1em; -moz-border-radius-bottomleft: 1em; -moz-border-radius-topleft: 1em; -webkit-border-bottom-left-radius: 1em; -webkit-border-top-left-radius: 1em; border: 1px #0c20a5 solid;}
 #aside h3 {padding-top: 2px; text-shadow: 1px 1px 1px #aaa; border-bottom: 1px solid #0c20a5; color: #0c20a5;}
 
 #footer { clear: left; background: #676FFB; text-align: right; padding: 20px; height: 1%; }
