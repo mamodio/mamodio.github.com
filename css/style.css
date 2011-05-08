@@ -7,7 +7,7 @@ body { margin: 0; font-family: 'Ubuntu'; font-size: 110%;}
 #htext h1 { margin: 0; font-size: 420%; text-shadow: 6px 6px 6px #aac; }
 #htext h2 { font-size: 100%; font-style: italic; text-shadow: 4px 4px 4px #aaa;}
 
-#container { margin-top: 270px ; width: 100%; background: #fff; }
+#container { margin-top: 290px ; width: 100%; background: #fff; }
 
 #navigation { float: left; width: 100%;  color: #0c20a5}
 #navigation ul { margin: 0; padding: 0; }
